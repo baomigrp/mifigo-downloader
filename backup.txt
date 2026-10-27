@@ -1,0 +1,314 @@
+// 📌 시리즈 16
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Ice Queen", korName: "아이스 퀸" },
+    { no: 2, engName: "Desert Warrior", korName: "사막 전사" },
+    { no: 3, engName: "Cyborg", korName: "사이보그" },
+    { no: 4, engName: "Cute Little Devil", korName: "귀여운 꼬마 악마" },
+    { no: 5, engName: "Spooky Boy", korName: "유령 소년" },
+    { no: 6, engName: "Hiker", korName: "등산객" },
+    { no: 7, engName: "Wildlife Photographer", korName: "야생동물 사진작가" },
+    { no: 8, engName: "Kickboxer", korName: "킥복서" },
+    { no: 9, engName: "Scallywag Pirate", korName: "해적" },
+    { no: 10, engName: "Penguin Boy", korName: "펭귄 소년" },
+    { no: 11, engName: "Rogue", korName: "도적" },
+    { no: 12, engName: "Dog Show Winner", korName: "도그 쇼 우승자" },
+    { no: 13, engName: "Mariachi", korName: "마리아치" },
+    { no: 14, engName: "Spy", korName: "스파이" },
+    { no: 15, engName: "Banana Guy", korName: "바나나맨" },
+    { no: 16, engName: "Babysitter", korName: "베이비시터" },
+
+    { no: 17, engName: "set", korName: "전체 세트" }
+];
+
+
+// 📌 시리즈 17 !!!!!😒
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Pro Surfer", korName: "프로 서퍼" },
+    { no: 2, engName: "Circus Strong Man", korName: "서커스 차력사" },
+    { no: 3, engName: "Gourmet Chef", korName: "고급 요리사" },
+    { no: 4, engName: "Corn Cob Guy", korName: "옥수수맨" },
+    { no: 5, engName: "Veterinarian", korName: "수의사" },
+    { no: 6, engName: "Hot Dog Vendor", korName: "핫도그 판매원" },
+    { no: 7, engName: "Butterfly Girl", korName: "나비 소녀" },
+    { no: 8, engName: "Roman Gladiator", korName: "로마 검투사" },
+    { no: 9, engName: "Connoisseur", korName: "감정가" },
+    { no: 10, engName: "Battle Dwarf", korName: "전투 드워프" },
+    { no: 11, engName: "Retro Space Hero", korName: "레트로 우주 영웅" },
+    { no: 12, engName: "Yuppie", korName: "여피" },
+    { no: 13, engName: "Rocket Boy", korName: "로켓 소년" },
+    { no: 14, engName: "Dance Instructor", korName: "댄스 강사" },
+    { no: 15, engName: "Elf Maiden", korName: "엘프 아가씨" },
+    { no: 16, engName: "Highwayman", korName: "노상강도" },
+
+    { no: 17, engName: "set", korName: "전체 세트" }
+];
+
+//  시리즈 18📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Elephant Costume Girl", korName: "코끼리 의상 소녀" },
+    { no: 2, engName: "Brick Suit Guy", korName: "브릭 의상 남자" },
+    { no: 3, engName: "Brick Suit Girl", korName: "브릭 의상 여자" },
+    { no: 4, engName: "Party Clown", korName: "파티 광대" },
+    { no: 5, engName: "Firework Guy", korName: "불꽃놀이 남자" },
+    { no: 6, engName: "Birthday Party Girl", korName: "생일 파티 소녀" },
+    { no: 7, engName: "Dragon Suit Guy", korName: "드래곤 의상 남자" },
+    { no: 8, engName: "1978 Police Officer", korName: "1978 경찰관" },
+    { no: 9, engName: "Spider Suit Boy", korName: "거미 의상 소년" },
+    { no: 10, engName: "Cake Guy", korName: "케이크 남자" },
+    { no: 11, engName: "Cactus Girl", korName: "선인장 소녀" },
+    { no: 12, engName: "Cat Costume Girl", korName: "고양이 의상 소녀" },
+    { no: 13, engName: "Race Car Guy", korName: "레이싱카 남자" },
+    { no: 14, engName: "Flowerpot Girl", korName: "화분 소녀" },
+    { no: 15, engName: "Cowboy Costume Guy", korName: "카우보이 의상 남자" },
+    { no: 16, engName: "Birthday Party Boy", korName: "생일 파티 소년" },
+    { no: 17, engName: "Unicorn Guy", korName: "유니콘 남자" },
+
+    { no: 18, engName: "set", korName: "전체 세트" }
+];
+
+
+//  시리즈 19📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Video Game Champ", korName: "비디오 게임 챔피언" },
+    { no: 2, engName: "Shower Guy", korName: "샤워 남자" },
+    { no: 3, engName: "Fright Knight", korName: "공포의 기사" },
+    { no: 4, engName: "Monkey King", korName: "원숭이 왕" },
+    { no: 5, engName: "Programmer", korName: "프로그래머" },
+    { no: 6, engName: "Mummy Queen", korName: "미이라 여왕" },
+    { no: 7, engName: "Jungle Explorer", korName: "정글 탐험가" },
+    { no: 8, engName: "Fire Fighter", korName: "소방관" },
+    { no: 9, engName: "Dog Sitter", korName: "애견 돌보미" },
+    { no: 10, engName: "Pizza Costume Guy", korName: "피자 복장 남자" },
+    { no: 11, engName: "Galactic Bounty Hunter", korName: "은하계 현상금 사냥꾼" },
+    { no: 12, engName: "Gardener", korName: "정원사" },
+    { no: 13, engName: "Rugby Player", korName: "럭비 선수" },
+    { no: 14, engName: "Fox Costume Girl", korName: "여우 복장 여자" },
+    { no: 15, engName: "Bear Costume Guy", korName: "곰 복장 남자" },
+    { no: 16, engName: "Mountain Biker", korName: "산악자전거 선수" },
+
+    { no: 17, engName: "set", korName: "전체 세트" }
+];
+
+//  시리즈 20📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Piñata Boy", korName: "피냐타 소년" },
+    { no: 2, engName: "Breakdancer", korName: "브레이크댄서" },
+    { no: 3, engName: "Peapod Costume Girl", korName: "완두콩 의상 소녀" },
+    { no: 4, engName: "Tournament Knight", korName: "토너먼트 기사" },
+    { no: 5, engName: "Pirate Girl", korName: "해적 소녀" },
+    { no: 6, engName: "Space Fan", korName: "스페이스 팬" },
+    { no: 7, engName: "Llama Costume Girl", korName: "라마 의상 소녀" },
+    { no: 8, engName: "Viking", korName: "바이킹" },
+    { no: 9, engName: "Super Warrior", korName: "슈퍼 전사" },
+    { no: 10, engName: "Martial Arts Boy", korName: "무술 소년" },
+    { no: 11, engName: "Athlete", korName: "운동선수" },
+    { no: 12, engName: "Sea Rescuer", korName: "해양 구조원" },
+    { no: 13, engName: "Brick Costume Guy", korName: "브릭 의상 남자" },
+    { no: 14, engName: "80's Musician", korName: "80년대 음악가" },
+    { no: 15, engName: "Pajama Girl", korName: "파자마 소녀" },
+    { no: 16, engName: "Drone Boy", korName: "드론 소년" },
+
+    { no: 17, engName: "set", korName: "전체 세트" }
+];
+
+
+//  시리즈 21📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Paddle Surfer", korName: "패들 서퍼" },
+    { no: 2, engName: "Violin Kid", korName: "바이올린 키드" },
+    { no: 3, engName: "Shipwreck Survivor", korName: "난파선 생존자" },
+    { no: 4, engName: "Ladybug Girl", korName: "무당벌레 소녀" },
+    { no: 5, engName: "Pug Costume Guy", korName: "퍼그 의상 남자" },
+    { no: 6, engName: "Centaur Warrior", korName: "켄타우루스 전사" },
+    { no: 7, engName: "Beekeeper", korName: "양봉가" },
+    { no: 8, engName: "Ancient Warrior", korName: "고대 전사" },
+    { no: 9, engName: "Airplane Girl", korName: "비행기 소녀" },
+    { no: 10, engName: "Space Police Guy", korName: "우주 경찰 남자" },
+    { no: 11, engName: "Alien", korName: "외계인" },
+    { no: 12, engName: "Cabaret Singer", korName: "카바레 가수" },
+
+    { no: 13, engName: "set", korName: "전체 세트" }
+];
+
+
+//  시리즈 22📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Robot Repair Tech", korName: "로봇 수리공" },
+    { no: 2, engName: "Chili Costume Fan", korName: "칠리 의상 팬" },
+    { no: 3, engName: "Troubadour", korName: "음유시인" },
+    { no: 4, engName: "Snow Guardian", korName: "눈의 수호자" },
+    { no: 5, engName: "Horse and Groom", korName: "말과 마부" },
+    { no: 6, engName: "Figure Skating Champion", korName: "피겨 스케이팅 챔피언" },
+    { no: 7, engName: "Night Protector", korName: "밤의 수호자" },
+    { no: 8, engName: "Forest Elf", korName: "숲의 엘프" },
+    { no: 9, engName: "Bird-Watcher", korName: "새 관찰자" },
+    { no: 10, engName: "Raccoon Costume Fan", korName: "라쿤 의상 팬" },
+    { no: 11, engName: "Space Creature", korName: "우주 생명체" },
+    { no: 12, engName: "Wheelchair Racer", korName: "휠체어 레이서" },
+
+    { no: 13, engName: "set", korName: "전체 세트" }
+];
+
+
+//  시리즈 23(71034)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Nutcracker", korName: "호두까기 인형" },
+    { no: 2, engName: "Sugar Fairy", korName: "설탕 요정" },
+    { no: 3, engName: "Snowman", korName: "눈사람" },
+    { no: 4, engName: "Reindeer Costume", korName: "순록 의상" },
+    { no: 5, engName: "Holiday Elf", korName: "홀리데이 엘프" },
+    { no: 6, engName: "Cardboard Robot", korName: "종이상자 로봇" },
+    { no: 7, engName: "Popcorn Costume", korName: "팝콘 의상" },
+    { no: 8, engName: "Wolf Costume", korName: "늑대 의상" },
+    { no: 9, engName: "Turkey Costume", korName: "칠면조 의상" },
+    { no: 10, engName: "Ferry Captain", korName: "페리 선장" },
+    { no: 11, engName: "Knight of the Yellow Castle", korName: "노란 성의 기사" },
+    { no: 12, engName: "Green Dragon Costume", korName: "초록 용 의상" },
+
+    { no: 13, engName: "set", korName: "전체 세트" }
+];
+
+//  시리즈 24(71037)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Football Referee", korName: "축구 심판" },
+    { no: 2, engName: "Robot Warrior", korName: "로봇 전사" },
+    { no: 3, engName: "Brown Astronaut and Spacebaby", korName: "갈색 우주비행사와 우주 아기" },
+    { no: 4, engName: "Carrot Mascot", korName: "당근 마스코트" },
+    { no: 5, engName: "Falconer", korName: "매 사냥꾼" },
+    { no: 6, engName: "T-Rex Costume Fan", korName: "티렉스 의상 팬" },
+    { no: 7, engName: "Orc", korName: "오크" },
+    { no: 8, engName: "Conservationist", korName: "환경 보호 활동가" },
+    { no: 9, engName: "Potter", korName: "도예가" },
+    { no: 10, engName: "Rococo Aristocrat", korName: "로코코 귀족" },
+    { no: 11, engName: "Rockin' Horse Rider", korName: "목마 라이더" },
+    { no: 12, engName: "Newspaper Kid", korName: "신문 소년" },
+
+    { no: 13, engName: "set", korName: "전체 세트" },
+    { no: 14, engName: "box", korName: "박스" }
+];
+
+// 시리즈 25(71045)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Film Noir Detective", korName: "필름 느와르 탐정" },
+    { no: 2, engName: "E-Sports Gamer", korName: "E스포츠 게이머" },
+    { no: 3, engName: "Vampire Knight", korName: "뱀파이어 기사" },
+    { no: 4, engName: "Sprinter", korName: "단거리 육상 선수" },
+    { no: 5, engName: "Goatherd", korName: "염소치기" },
+    { no: 6, engName: "Mushroom Sprite", korName: "버섯 요정" },
+    { no: 7, engName: "Fitness Instructor", korName: "피트니스 강사" },
+    { no: 8, engName: "Triceratops Costume Fan", korName: "트리케라톱스 의상 팬" },
+    { no: 9, engName: "Harpy", korName: "하피" },
+    { no: 10, engName: "Train Kid", korName: "기차 소년" },
+    { no: 11, engName: "Fierce Barbarian", korName: "사나운 야만인" },
+    { no: 12, engName: "Pet Groomer", korName: "애완동물 미용사" },
+
+    { no: 13, engName: "set", korName: "전체 세트" },
+    { no: 14, engName: "box", korName: "박스" }
+];
+
+// 시리즈 26(71046)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Spacewalking Astronaut", korName: "우주 유영 우주비행사" },
+    { no: 2, engName: "Imposter", korName: "임포스터" },
+    { no: 3, engName: "Alien Tourist", korName: "외계인 관광객" },
+    { no: 4, engName: "Retro Space Heroine", korName: "레트로 우주 히로인" },
+    { no: 5, engName: "M-Tron Powerlifter", korName: "M-트론 파워리프터" },
+    { no: 6, engName: "Nurse Android", korName: "간호사 안드로이드" },
+    { no: 7, engName: "Flying Saucer Costume Fan", korName: "비행접시 의상 팬" },
+    { no: 8, engName: "Ice Planet Explorer", korName: "아이스 플래닛 탐험가" },
+    { no: 9, engName: "Robot Butler", korName: "로봇 집사" },
+    { no: 10, engName: "Alien Beetlezoid", korName: "외계 딱정벌레 인간" },
+    { no: 11, engName: "Orion", korName: "오리온" },
+    { no: 12, engName: "Blacktron Mutant", korName: "블랙트론 뮤턴트" },
+
+    { no: 13, engName: "set", korName: "전체 세트" },
+    { no: 14, engName: "box", korName: "박스" }
+];
+
+
+// 시리즈 27(71048)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Hamster Costume Fan", korName: "햄스터 의상 팬" },
+    { no: 2, engName: "Wolfpack Beastmaster", korName: "울프팩 야수 조련사" },
+    { no: 3, engName: "Jetpack Racer", korName: "제트팩 레이서" },
+    { no: 4, engName: "Astronomer Kid", korName: "천문학 소년" },
+    { no: 5, engName: "Plush Toy Collector", korName: "봉제인형 수집가" },
+    { no: 6, engName: "Pterodactyl Costume Fan", korName: "프테라노돈 의상 팬" },
+    { no: 7, engName: "Longboarder", korName: "롱보더" },
+    { no: 8, engName: "Bogeyman", korName: "보기맨" },
+    { no: 9, engName: "Cupid", korName: "큐피드" },
+    { no: 10, engName: "Pirate Quartermaster", korName: "해적 병참장교" },
+    { no: 11, engName: "Cat Lover", korName: "고양이 애호가" },
+    { no: 12, engName: "Steampunk Inventor", korName: "스팀펑크 발명가" },
+
+    { no: 13, engName: "set", korName: "전체 세트" },
+    { no: 14, engName: "box", korName: "박스" }
+];
+
+
+// 시리즈 28(71051)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Peacock Suit", korName: "공작 의상" },
+    { no: 2, engName: "Cat Suit", korName: "고양이 의상" },
+    { no: 3, engName: "Goldfish Suit", korName: "금붕어 의상" },
+    { no: 4, engName: "Monkey Suit", korName: "원숭이 의상" },
+    { no: 5, engName: "Frog Suit", korName: "개구리 의상" },
+    { no: 6, engName: "Koala Suit", korName: "코알라 의상" },
+    { no: 7, engName: "Dalmatian Suit", korName: "달마시안 의상" },
+    { no: 8, engName: "Crocodile Suit", korName: "악어 의상" },
+    { no: 9, engName: "Dolphin Suit", korName: "돌고래 의상" },
+    { no: 10, engName: "Rabbit Suit", korName: "토끼 의상" },
+    { no: 11, engName: "Lion Suit", korName: "사자 의상" },
+    { no: 12, engName: "Parrot Suit", korName: "앵무새 의상" },
+
+    { no: 13, engName: "set", korName: "전체 세트" },
+    { no: 14, engName: "box", korName: "박스" }
+];
+
+
+// 시리즈 29(71052)📌
+const minifigures = [
+    { no: "0", engName: "bag", korName: "봉지" },
+
+    { no: 1, engName: "Robot T. rex", korName: "로봇 티렉스" },
+    { no: 2, engName: "Marine Biologist", korName: "해양 생물학자" },
+    { no: 3, engName: "BIONICLE Cosplayer", korName: "바이오니클 코스플레이어" },
+    { no: 4, engName: "Monster Hunter", korName: "몬스터 헌터" },
+    { no: 5, engName: "Boba Cup Fan", korName: "버블티 팬" },
+    { no: 6, engName: "Trash Monster", korName: "쓰레기 몬스터" },
+    { no: 7, engName: "Chocolatier", korName: "초콜릿 장인" },
+    { no: 8, engName: "Tuba Player", korName: "튜바 연주자" },
+    { no: 9, engName: "Football Goalkeeper", korName: "축구 골키퍼" },
+    { no: 10, engName: "Cute Witch", korName: "귀여운 마녀" },
+    { no: 11, engName: "Mysterious Ronin", korName: "신비로운 낭인" },
+    { no: 12, engName: "Unicorn Elf", korName: "유니콘 엘프" },
+
+    { no: 13, engName: "set", korName: "전체 세트" },
+    { no: 14, engName: "box", korName: "박스" }
+];
