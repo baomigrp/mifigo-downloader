@@ -312,3 +312,7 @@ const minifigures = [
     { no: 13, engName: "set", korName: "전체 세트" },
     { no: 14, engName: "box", korName: "박스" }
 ];
+
+
+
+
