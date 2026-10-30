@@ -1,3 +1,7 @@
+
+/**
+ * 01.정규시리즈 하위 폴더의 모든 이미지를 특정폴더로 옯기기
+ */
 const fs = require('fs');
 const path = require('path');
 
