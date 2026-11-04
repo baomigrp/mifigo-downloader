@@ -20,7 +20,8 @@ let totalCopiedCount = 0;
 function scanAndCopy(currentDir) {
     if (!fs.existsSync(currentDir)) return;
 
-    const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true })
+            .sort((a, b) => a.name.localeCompare(b.name, 'ko', { numeric: true }));
 
     for (const entry of entries) {
         const fullPath = path.join(currentDir, entry.name);

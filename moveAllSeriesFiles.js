@@ -1,6 +1,8 @@
 
 /**
  * 01.정규시리즈 하위 폴더의 모든 이미지를 특정폴더로 옯기기
+ * 
+ * 02.옮겨진 이미지도 정렬순서대로 출력
  */
 const fs = require('fs');
 const path = require('path');
@@ -29,7 +31,17 @@ function collectAndCopyAllImages() {
         const seriesFolders = entries
             .filter(entry => entry.isDirectory() && entry.name !== 'all-image-upload')
             .map(entry => entry.name)
-            .sort((a, b) => a.localeCompare(b, 'ko', { numeric: true }));
+            .sort((a, b) => {
+                // 폴더명에서 숫자 추출 (예: "시리즈1" -> 1, "시리즈20(71027)" -> 20)
+                const numA = parseInt(a.replace(/[^0-9]/g, ''), 10) || 0;
+                const numB = parseInt(b.replace(/[^0-9]/g, ''), 10) || 0;
+                
+                // 숫자가 같다면 문자열 전체 기준으로 2차 정렬
+                if (numA === numB) {
+                    return a.localeCompare(b, 'ko');
+                }
+                return numA - numB; // 숫자 오름차순 정렬 (1, 2, 3 ... 10, 11 ...)
+            });
 
         if (!isSimpleMode) {
             console.log(`📁 총 ${seriesFolders.length}개의 시리즈 폴더가 확인되었습니다.\n`);

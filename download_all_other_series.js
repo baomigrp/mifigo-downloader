@@ -6,7 +6,8 @@ const path = require('path');
 const axios = require('axios');
 
 // 최상위 기준 폴더 경로
-const ROOT_DIR = "D:\\mifigo\\01.파일\\01.사진\\02.기타시리즈";
+//const ROOT_DIR = "D:\\mifigo\\01.파일\\01.사진\\02.기타시리즈";
+const ROOT_DIR = "D:\\mifigo\\01.파일\\01.사진\\02.기타시리즈\\04. 스포츠 및 국가 한정 특별판";
 
 // 📌 시리즈 코드별 미니피규어 구성 데이터 매핑 (필요에 따라 추가/수정)
 const seriesDataMap = {
@@ -452,37 +453,37 @@ const seriesDataMap = {
 
     "8909": [
         { no: "0", engName: "bag", korName: "봉지" },
-        { no: 1, engName: "Agile Archer", korName: "민첩한 궁수" },
-        { no: 2, engName: "Brawny Boxer", korName: "건장한 복서" },
-        { no: 3, engName: "Flexible Gymnast", korName: "유연한 체조 선수" },
-        { no: 4, engName: "Horseback Rider", korName: "승마 선수" },
-        { no: 5, engName: "Judo Fighter", korName: "유도 선수" },
-        { no: 6, engName: "Relay Runner", korName: "계주 선수" },
-        { no: 7, engName: "Stealth Swimmer", korName: "잠수 수영 선수" },
-        { no: 8, engName: "Tactical Tennis Player", korName: "전략적인 테니스 선수" },
-        { no: 9, engName: "Wondrous Weightlifter", korName: "놀라운 역도 선수" },
+        { no: 1, engName: "Brawny Boxer", korName: "건장한 복서" },
+        { no: 2, engName: "Stealth Swimmer", korName: "잠수 수영 선수" },
+        { no: 3, engName: "Relay Runner", korName: "계주 선수" },
+        { no: 4, engName: "Judo Fighter", korName: "유도 선수" },
+        { no: 5, engName: "Tactical Tennis Player", korName: "테니스 선수" },
+        { no: 6, engName: "Flexible Gymnast", korName: "유연한 체조 선수" },
+        { no: 7, engName: "Wondrous Weightlifter", korName: "놀라운 역도 선수" },
+        { no: 8, engName: "Horseback Rider", korName: "승마 선수" },
+        { no: 9, engName: "Agile Archer", korName: "민첩한 궁수" },
         { no: 10, engName: "set", korName: "전체 세트" },
         { no: 11, engName: "box", korName: "박스" }
     ],
 
     "71014": [
         { no: "0", engName: "bag", korName: "봉지" },
-        { no: 1, engName: "Manuel Neuer", korName: "마누엘 노이어" },
-        { no: 2, engName: "Shkodran Mustafi", korName: "슈코드란 무스타피" },
-        { no: 3, engName: "Mesut Özil", korName: "메수트 외질" },
-        { no: 4, engName: "Benedikt Höwedes", korName: "베네딕트 회베데스" },
-        { no: 5, engName: "Mats Hummels", korName: "마츠 후멜스" },
-        { no: 6, engName: "Sami Khedira", korName: "사미 케디라" },
+        { no: 1, engName: "Joachim Löw", korName: "요아힘 뢰프" },
+        { no: 2, engName: "Manuel Neuer", korName: "마누엘 노이어" },
+        { no: 3, engName: "Jérôme Boateng", korName: "제롬 보아텡" },
+        { no: 4, engName: "Mats Hummels", korName: "마츠 후멜스" },
+        { no: 5, engName: "Benedikt Höwedes", korName: "베네딕트 회베데스" },
+        { no: 6, engName: "Shkodran Mustafi", korName: "슈코드란 무스타피" },
         { no: 7, engName: "Bastian Schweinsteiger", korName: "바스티안 슈바인슈타이거" },
-        { no: 8, engName: "André Schürrle", korName: "안드레 쉬를레" },
+        { no: 8, engName: "Mesut Özil", korName: "메수트 외질" },
         { no: 9, engName: "Thomas Müller", korName: "토마스 뮐러" },
-        { no: 10, engName: "Jérôme Boateng", korName: "제롬 보아텡" },
-        { no: 11, engName: "Toni Kroos", korName: "토니 크로스" },
-        { no: 12, engName: "Mario Götze", korName: "마리오 괴체" },
-        { no: 13, engName: "Christoph Kramer", korName: "크리스토프 크라머" },
-        { no: 14, engName: "Marco Reus", korName: "마르코 로이스" },
-        { no: 15, engName: "Max Kruse", korName: "막스 크루제" },
-        { no: 16, engName: "Joachim Löw", korName: "요아힘 뢰프" },
+        { no: 10, engName: "Toni Kroos", korName: "토니 크로스" },
+        { no: 11, engName: "Sami Khedira", korName: "사미 케디라" },
+        { no: 12, engName: "André Schürrle", korName: "안드레 쉬를레" },
+        { no: 13, engName: "Marco Reus", korName: "마르코 로이스" },
+        { no: 14, engName: "Christoph Kramer", korName: "크리스토프 크라머" },
+        { no: 15, engName: "Mario Götze", korName: "마리오 괴체" },
+        { no: 16, engName: "Max Kruse", korName: "막스 크루제" },
         { no: 17, engName: "set", korName: "전체 세트" },
         { no: 18, engName: "box", korName: "박스" }
     ],
@@ -542,7 +543,10 @@ function sanitizeFilename(name) {
 async function scanAndProcessFolders(currentDir) {
     if (!fs.existsSync(currentDir)) return;
 
-    const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+    //const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+    // 변경할 코드 (이름순 정렬 추가):
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true })
+        .sort((a, b) => a.name.localeCompare(b.name, 'ko', { numeric: true }));    
 
     for (const entry of entries) {
         const fullPath = path.join(currentDir, entry.name);
